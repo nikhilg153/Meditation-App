@@ -51,7 +51,7 @@ const app = () => {
 
 
 
-    // create a function specific to stop and play yhe sounds
+    // create a function specific to stop and play the sounds
     const checkPlaying = song =>{
         if(song.paused){
             song.play();
